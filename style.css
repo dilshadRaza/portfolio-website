@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    margin-left: 92%;
+position: absolute;
+    display: inline-block;
+    margin-top: 1%;
+    padding: 0.5%;
+
+    transform: translate(0%, 0%);
+
+    color: floralwhite;
+    
+}
+header a{
+    
+  text-decoration: none;
+    display: inline-block;
+    color: rgb(230, 236, 225);
+    
+
+}
+header a:hover{
+    text-decoration: none;
+    color: cyan;
+}
+
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 700px;
+    scroll-behavior: smooth;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+#home{
+ 
+    margin-top: -0.8%;
+ margin-left: -0.8%;
+ margin-bottom: -1.5%;
+  
+}
+
+
+
+nav a{
+ float: right;
+    display: inline-block;
+    
+    margin-top: 6%;
+   
+ 
+  padding: 1%;
+    
+    color: rgb(6, 233, 108);
+    transform: translate(0%, 0%);
+    text-decoration: none;
+   
+}
+
+
+a:hover { text-decoration:none; 
+    color: blanchedalmond;
+
+}
+
+#home img{
+    display: inline-block;
+   
+ 
+    width: 100%;
+   overflow-x: hidden;
+    margin-top: -11%;
+
+   
+}
+
+
+
+#home h1{
+    left: 35%;
+    top: 35%;
+    position: absolute;
+    text-align: center;
+    color:floralwhite;
+    transform: translate(0%,0%);
+
+
+   
+}
+#home h2{
+ 
+    left: 20%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    color: rgb(133, 255, 245);
+
+    transform: translate(0%,0%);
+}
+#home a{
+ 
+    left: 45%;
+    top: 60%;
+position: absolute;
+    text-align: center;
+    color: rgb(133, 255, 245);
+    transform: translate(0%,0%);
+}
+
+
+.web{
+
+    display: inline-block;
+   float: left;
+   text-align: center;
+   padding-left: 4px;
+   margin-top: 20%;
+   color: aquamarine;
+  
+   
+  
+
+}
+.web img{
+
+    border-radius: 50%;
+}
+#project h3{
+    color: yellow;
+}
+
+
+
+.open{
+ display: inline-block;
+ color: aquamarine;
+margin-top: 20%;
+padding-right: 4%;
+padding-left: 8%;
+text-align: center;
+
+border-radius: 50%;
+}
+
+
+.open img{
+    border-radius: 50%;
+}
+
+
+.coding{
+    color: aquamarine;
+    margin-top: 1%;
+
+display: inline-block;
+margin-left: 10%;
+top: 10%;
+
+text-align: center;
+
+}
+
+.coding img{
+    border-radius: 50%;
+}
+#project h1{
+    position: absolute;
+   left: 48%;
+   margin-top: 8%;
+   color: white;
+   text-decoration: underline;
+
+ 
+}
+#project{
+    background-color: rgb(29, 85, 117);
+    height: 700px;
+
+
+ 
+ width: 100%;
+ 
+ 
+}
+#skill{
+    display: inline-block;
+
+
+    height: 700px;
+    width: 100%;
+    background-color: darkslategrey;
+ 
+}
+#skill a{
+    display:block;
+    
+      transform: translate(0%, 0%);
+    margin-top: 5%;
+      text-align:right;
+      margin-left: 80%;
+      color: rgb(245, 245, 245);
+      text-decoration: none;
+     
+  }
+  #skill h1{
+    margin-left: 45%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 8%;
+    color: white;
+    text-decoration: underline;
+
+}
+.coding a{
+    text-decoration: none;
+    color: rgb(250, 249, 240);
+    
+}
+.open a{
+    text-decoration: none;
+    color: rgb(250, 249, 240);
+}
+.coding a:hover{
+    text-decoration:underline;
+}
+.open a:hover{
+    text-decoration:underline;
+}
+#skill b{
+    display: inline-block;
+    color: yellow;
+    
+   margin-left:20%;
+   padding: 1%;
+}
+#Qualification{
+    display: inline-block;
+    height: 700px;
+    width: 100%;
+}
+#Qualification img{
+    display: inline-block;
+  position: absolute;
+    height: 700px;
+    width: 100%;
+   
+}
+#Qualification h1{
+   position: absolute;
+    margin-top: 8%;
+    margin-left: 40%;
+    text-align: center;
+    transform: translate(0%, 0%);
+
+}
+
+ 
+.qualify{
+    
+    line-height: 180%;
+  margin-top: 15%;
+    margin-left: 36%;
+  position: absolute;
+    transform: translate(0%, 0%);
+  margin-top: 20%;
+}
+
+#About{
+    
+    overflow: hidden;
+    display: inline-block;
+ 
+    height: 100%;
+    width: 100%;
+    background-color: darkslategrey;
+}
+#About img{
+    display: inline-block;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+.padded-multiline h2{
+  
+    text-align:start;
+    color:lightgreen;
+ margin-top: 8%;
+    margin-left: 30%;
+    margin-right: 15%;
+    line-height:2;
+}
+#About h1{
+
+    text-decoration: underline;
+    color: rgb(239, 245, 242);
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 18%;
+ 
+    text: size adjust 10px;
+}
+.padded-multiline b{
+    color: lightpink;
+}
+#About nav{
+  display: block;
+    
+  margin-top: 5%;
+    text-align:right;
+    margin-left: 80%;
+    color: rgb(245, 245, 245);
+    background-color: darkblue;
+}
+
+#Contact {
+    
+    background-color: rgb(29, 85, 117);
+    display: inline-block;
+
+    height: 700px;
+    width: 100%;
+    text-decoration: none;
+   
+}
+#Contact h2{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+
+footer{
+    display: inline-block;
+    position: absolute;
+   
+    text-align: center;
+    margin-top: 10%;
+  
+    text-decoration: none;
+    text-decoration: whitesmoke;
+    margin-left: 46%;
+
+
+}
+footer a{
+    color: aqua;
+    text-decoration: none;
+    height: 10%;
+}
+
+
+
+
+    
+
+
+
